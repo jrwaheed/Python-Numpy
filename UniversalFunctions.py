@@ -8,12 +8,20 @@ simple_arr_two = np.array([[10, 10, 10], [20, 20, 20], [30, 30, 30], [
 print(np.random.standard_normal(size=(2, 2)))
 
 # Universal function examples (sqrt and exp). Also called ufunc's
+
+# unary ufuncs - works with one array
 print(f"{np.sqrt(simple_arr)} \n")
 print(np.exp(simple_arr))
 
-# binary ufuncs
+# binary ufuncs - works with two arrays
 binary_one = np.random.standard_normal(size=(1, 6))
 binary_two = np.random.standard_normal(size=(1, 6))
 
 binary_result = np.maximum(binary_one, binary_two)
-print(binary_result)
+print(f" \n {binary_result} \n")
+
+x = np.random.standard_normal(8)
+print(x)
+
+q = np.power(simple_arr, 4)
+print(q)

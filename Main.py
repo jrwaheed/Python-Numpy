@@ -1,6 +1,5 @@
 import numpy as np
 import UsefulTools as ut
-import timeit
 
 
 def main():
