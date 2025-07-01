@@ -7,11 +7,11 @@ arr_y_matrix = np.array([[6, 10], [-1, 7], [8, 9]])
 
 
 print(np.dot(arr_x_matrix, arr_y_matrix))
-print(f"Using the np.dot method\n")
+print("Using the np.dot method\n")
 
 
 print(arr_x_matrix.dot(arr_y_matrix))  # Same as above, np.dot
-print(f"Using the array.dot method\n")
+print("Using the array.dot method\n")
 
 
 print(arr_x_matrix @ arr_y_matrix)  # And still the same as above
